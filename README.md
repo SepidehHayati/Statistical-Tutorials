@@ -10,3 +10,6 @@ EDA (Exploratory Data Analysis) tools:
   - Variance (Standard deviation, Coefficient of Variance)
   - Skewness
   - Kurtosis
+### 2. Data Distribution
+  - Histogram
+  - BoxPlot
