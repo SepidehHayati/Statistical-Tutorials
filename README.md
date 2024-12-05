@@ -10,6 +10,13 @@ EDA (Exploratory Data Analysis) tools:
   - Variance (Standard deviation, Coefficient of Variance)
   - Skewness
   - Kurtosis
+    
+### Five-Number summary
+
+### Distribution Plots
+  - Histogram
+  - Boxplot
+    
 ### 2. Data Distribution
   - Normal (Gaussian)
   - Uniform
