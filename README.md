@@ -11,13 +11,13 @@ EDA (Exploratory Data Analysis) tools:
   - Skewness
   - Kurtosis
     
-### Five-Number summary
+### 2. Five-Number summary
 
-### Distribution Plots
+### 3. Distribution Plots
   - Histogram
   - Boxplot
     
-### 2. Data Distribution
+### 4. Data Distribution
   - Normal (Gaussian)
   - Uniform
   - Bernoulli (Success '1' or Failure '0')
