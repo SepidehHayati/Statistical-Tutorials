@@ -35,8 +35,8 @@ falls under `Inferential Statistics`, as it involves testing assumptions about t
 - `HT` builds on EDA by using statistical tests to confirm or reject assumptions.
 
 #### Descriptive vs. Inferential:
-- Some tools (e.g., Q-Q Plot) and concepts (e.g., confidence intervals) serve descriptive and inferential purposes depending on their use case.
-
+- `Descriptive` Summarizes, organizes, and describes the main features of a dataset without concluding the population.
+- `Inferential` Uses sample data to make generalizations, predictions, or conclusions about a larger population. Includes hypothesis testing and statistical modeling.
 
 ----------------------------------------------------------------------------
 ## 1. Descriptive statistics: 
