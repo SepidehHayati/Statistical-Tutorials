@@ -41,61 +41,61 @@ falls under `Inferential Statistics`, as it involves testing assumptions about t
 These are the foundational concepts and methods used across both Descriptive and Inferential Statistics.
 
 #### Population and Sample
-1. Population: The entire group of individuals or items you want to study
-2. Target Population: A specific subset of the population you're focusing on.
-3. Available Population: The part of the population that is accessible for sampling
-4. Sample: The subset of the target population that you can access for your study.
+1. `Population`: The entire group of individuals or items you want to study
+2. `Target Population`: A specific subset of the population you're focusing on.
+3. `Available Population`: The part of the population that is accessible for sampling
+4. `Sample`: The subset of the target population that you can access for your study.
 
 #### Moments: 
-1. Mean (Central Tendency), average of data points. Includes:
-    1. Median: Middle value of the data. 
-    2. Mode: Most frequent value.
-    3. Trimmed Mean: calculates the average by removing a percentage of the highest and lowest values to reduce the impact of outliers.
-3. Variance (Dispersion): Measures how spread out the data is. Includes:
-     1. Standard Deviation: The square root of variance, showing data spread in the same units.
-     2. Coefficient of Variation: Ratio of the standard deviation to the mean, useful for comparing variability between different datasets.
-5. Skewness: Measures the asymmetry of data distribution
-6. Kurtosis: Measures the "tailedness" of the data distribution (how extreme the outliers are).
+1. `Mean` (Central Tendency), average of data points. Includes:
+    1. `Median`: Middle value of the data. 
+    2. `Mode`: Most frequent value.
+    3. `Trimmed Mean`: calculates the average by removing a percentage of the highest and lowest values to reduce the impact of outliers.
+3. `Variance` (Dispersion): Measures how spread out the data is. Includes:
+     1. `Standard Deviation`: The square root of variance, showing data spread in the same units.
+     2. `Coefficient of Variation`: Ratio of the standard deviation to the mean, useful for comparing variability between different datasets.
+5. `Skewness`: Measures the asymmetry of data distribution
+6. `Kurtosis`: Measures the "tailedness" of the data distribution (how extreme the outliers are).
 
 #### Five-Number Summary
-1. Min: The smallest data point.
-2. Q1: The first quartile (25th percentile).
-3. Median: The middle value (50th percentile).
-4. Q3: The third quartile (75th percentile).
-5. Max: The largest data point.
+1. `Min`: The smallest data point.
+2. `Q1`: The first quartile (25th percentile).
+3. `Median`: The middle value (50th percentile).
+4. `Q3`: The third quartile (75th percentile).
+5. `Max`: The largest data point.
 
 #### Distributions
-1. Normal (Gaussian): Symmetrical distribution where most data points are near the mean.
-2. Uniform: All outcomes have equal probability.
-3. Bernoulli (Failure/Success): Distribution with two possible outcomes (failure/success)
-4. Binomial: Distribution for a fixed number of independent trials, each with a success/failure outcome.
-5. Multinomial: Generalization of binomial for more than two possible outcomes.
+1. `Normal (Gaussian)`: Symmetrical distribution where most data points are near the mean.
+2. `Uniform`: All outcomes have equal probability.
+3. `Bernoulli`: Distribution with two possible outcomes (failure/success)
+4. `Binomial`: Distribution for a fixed number of independent trials, each with a success/failure outcome.
+5. `Multinomial`: Generalization of binomial for more than two possible outcomes.
 
 #### Statistical Comparison Metrics
-1. Q-Q Plot: A graphical tool to compare two data distributions. It visually shows how well the data fits the reference distribution, without providing numerical results
-2. Kullback-Leibler Divergence (KLD): Measures the difference between two probability distributions. A value close to zero means the distributions are similar. It’s not used to test normality.
-3. Kolmogorov-Smirnov (K-S) Test: Compares sample data to a reference distribution (e.g., normal) to test if the data fits. It provides a p-value to assess the goodness of fit.
-4. Shapiro Test: Tests if a dataset follows a normal distribution. It provides a p-value and does not compare multiple datasets.
+1. `Q-Q Plot`: A graphical tool to compare two data distributions. It visually shows how well the data fits the reference distribution, without providing numerical results
+2. `Kullback-Leibler Divergence (KLD)`: Measures the difference between two probability distributions. A value close to zero means the distributions are similar. It’s not used to test normality.
+3. `Kolmogorov-Smirnov (K-S) Test`: Compares sample data to a reference distribution (e.g., normal) to test if the data fits. It provides a p-value to assess the goodness of fit.
+4. `Shapiro Test`: Tests if a dataset follows a normal distribution. It provides a p-value and does not compare multiple datasets.
 
 ## 2. Specific Concepts
 These are methods and tools specifically tied to EDA (Exploratory Data Analysis) or HT (Hypothesis Testing):
 
 #### Sampling Methods
-  - Simple Random Sampling: Every member of the population has an equal chance of being selected.
-  - Systematic Sampling: Selecting every "n-th" item from a list.
-  - Stratified Sampling: Dividing the population into subgroups and sampling from each subgroup.
-  - Cluster Sampling: Dividing the population into clusters, then randomly selecting entire clusters to study.
+  - `Simple Random Sampling`: Every member of the population has an equal chance of being selected.
+  - `Systematic Sampling`: Selecting every "n-th" item from a list.
+  - `Stratified Sampling`: Dividing the population into subgroups and sampling from each subgroup.
+  - `Cluster Sampling`: Dividing the population into clusters, then randomly selecting entire clusters to study.
 #### Sample Size
-  - 10 %: A common guideline for choosing sample size in some studies (can vary depending on context).
-  - Confidence Level, Confidence Interval: The confidence level shows the probability that a population parameter lies within the confidence interval.
-  - Subtopic: Placeholder for other methods related to sample size.
+  - `10 %`: A common guideline for choosing sample size in some studies (can vary depending on context).
+  - `Confidence Level, Confidence Interval`: The confidence level shows the probability that a population parameter lies within the confidence interval.
+  - `Subtopic`: Placeholder for other methods related to sample size.
 #### Data Types
-  - Numerical: Data that represents measurable quantities
-      1. Continuous: Data that can take any value in a range (e.g., height, weight).
-      2. Discrete: Data that can only take specific values (e.g., number of people).
-  - Categorical: Data that represents categories.
-      1. Nominal: Categories without a specific order (e.g., colors).
-      2. Ordinal: Categories with a meaningful order but no fixed difference between them (e.g., ratings from 1 to 5).
+  - `Numerical`: Data that represents measurable quantities
+      1. `Continuous`: Data that can take any value in a range (e.g., height, weight).
+      2. `Discrete`: Data that can only take specific values (e.g., number of people).
+  - `Categorical`: Data that represents categories.
+      1. `Nominal`: Categories without a specific order (e.g., colors).
+      2. `Ordinal`: Categories with a meaningful order but no fixed difference between them (e.g., ratings from 1 to 5).
 
 
 
